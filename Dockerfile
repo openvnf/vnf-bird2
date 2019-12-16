@@ -6,4 +6,4 @@ RUN mkdir -p /etc/bird
 
 EXPOSE 179
 
-CMD [ "/usr/sbin/bird", "-f", "-s", "/var/run/bird/bird.ctl", "-c", "/etc/bird/bird.conf" ]
+CMD [ "/usr/sbin/bird", "-d", "-s", "/var/run/bird/bird.ctl", "-c", "/etc/bird/bird.conf" ]
