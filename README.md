@@ -9,5 +9,5 @@ FIB manipulation currently requires some capability:
 
 ### Configuration
 
-Configuration is done by supplying a configuration file to `/etc/bird.conf`.
-If no config file is supplied, a simple default config will be used.
+Configuration is done by supplying a configuration file to
+`/etc/bird/bird.conf`.  If no config file is supplied, bird will not come up.
